@@ -1,0 +1,361 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ strong, b {
+    font-weight: 600 !important;
+}
+.iwm-review-notice img.review-logo {
+    width: 100px;
+    height: auto;
+}
+
+img.plu-logo {
+    width: 40px;
+}
+
+.iwm-review-notice ul li {
+    display: inline-block;
+    margin: 0px 21px 0px 0px;
+    color: #b32464;
+}
+
+.iwm-review-notice p {
+    font-size: 13px;
+}
+
+.evo-cp-wrap {
+    position: relative;
+}
+
+.evo-cp-wrap input {
+    padding: 0px 4px;
+}
+
+.evo-pointer.evo-colorind {
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+
+body {
+    background: #f1f1f1 !important;
+    color: #444 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+    font-size: 13px !important;
+    line-height: 1.4em !important;
+    min-width: 600px !important;
+}
+
+.innovs-panel-body {
+    background: #ffffff;
+    border: 1px solid #ead2d2;
+    box-shadow: 0px 2px 6px 0px #b7adad;
+    padding: 10px;
+}
+
+.panel-body {
+    min-height: 360px;
+}
+
+.panel-heading.text-center {
+    background: #32373c;
+    margin-bottom: 15px;
+    color: #fff;
+    padding: 5px;
+}
+
+.innovs-panel-mt {
+    margin: 15px 0;
+    padding: 10px;
+    /* border: 1px solid gray; */
+    box-shadow: 0px 3px 6px 0px #c4c4c4;
+    border-radius: 0px;
+}
+
+.innovs-panel-heading {
+    color: #fff;
+    background-color: #540054;
+    border-color: #540054;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.innovs-panel-primary {
+    border-color: #337ab7;
+    width: 98%;
+}
+
+.innovs-nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.innovs-nav-tabs>li>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.innovs-nav-tabs>li.active {
+    font-weight: 400;
+}
+
+.innovs-nav-tabs>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+    box-shadow: none;
+}
+
+.innovs-nav-tabs li.nav-item a:hover {
+    color: #212529 !important;
+}
+
+.innovs-nav-tabs .nav-link.active {
+    color: #f8f9fa;
+    background-color: #17a2b8;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+p.submit {
+    text-align: left;
+    max-width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.submit {
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+}
+
+.innovs_woo_save_btn {
+    background: #540054 !important;
+    border-color: #540054 !important;
+    box-shadow: #540054;
+    text-shadow: none !important;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+td,
+th {
+    padding: 5px 5px 9px 0px;
+}
+
+select.innovs-woo-cart-select {
+    width: 100%;
+}
+
+.innovs-woo-single-product-select {
+    width: 100%;
+}
+
+
+/* Color picker css */
+
+.wp-picker-holder {
+    position: absolute;
+    z-index: 1;
+}
+
+.wp-color-picker {
+    width: 70px;
+    direction: ltr;
+    padding: 0;
+}
+
+.wp-picker-open+.wp-picker-input-wrap {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+}
+
+.wp-picker-container .wp-color-result.button {
+    height: 28px;
+    margin: 0 0px 0px 0;
+    padding: 0 0 0 35px;
+    font-size: 11px;
+    width: 100%;
+}
+
+.wp-picker-container {
+    display: inline-block;
+    position: unset;
+    z-index: 1;
+}
+
+.wp-color-result-text {
+    background: #f7f7f7;
+    border-radius: 0 2px 2px 0;
+    border-left: 1px solid #ccc;
+    color: #555;
+    display: block;
+    line-height: 2;
+    padding: 2px 17px;
+    text-align: center;
+    margin: 0px 0px 0px 55px;
+}
+
+
+/* end color picker */
+
+
+/* Innovs woo checkout page */
+
+ul.checkout-field-menu li {
+    display: inline-block !important;
+}
+
+ul.checkout-field-menu li a {
+    padding: 10px 15px;
+    background-color: gray;
+    color: #f8f9fa;
+    font-family: 'Poppins', cursive;
+    border-radius: 2px;
+}
+
+ul.checkout-field-menu li a:hover {
+    background-color: #32373c;
+}
+
+ul.checkout-field-menu li.iwm-menu-active a {
+    background-color: #32373c;
+}
+
+ul.checkout-field-menu li a:hover {
+    text-decoration: none;
+}
+
+.iwm-checkout-filed .panel {
+    border: 1px solid #80807f52;
+    padding: 0px;
+}
+
+.iwm-checkout-filed .panel-heading {
+    background: #cccccc4d;
+    padding: 8px 10px;
+    margin: 0px 0px 10px;
+    position: relative;
+}
+
+.iwm-checkout-filed .panel-body {
+    padding: 0px 10px;
+}
+
+.iwm-checkout-filed i.fas.fa-arrows-alt,
+i.fas.fa-bars {
+    color: #49505799;
+}
+
+.iwm-checkout-filed i.fas.fa-arrows-alt:hover {
+    cursor: move;
+}
+
+.iwm-checkout-filed table.table th {
+    border-top: none !important;
+    border-bottom: none;
+}
+
+.iwm-checkout-filed select {
+    border-color: #ccc !important;
+}
+
+input#submit.checkout-field-submit-btn {
+    background: #28a745;
+    border: none;
+    border-radius: 0px;
+    padding: 5px 15px;
+    color: #f8f9fa;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+input#submit.checkout-field-submit-btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+span.top-submit-btn {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+
+ul.buttons {
+    display: flex;
+}
+
+p.add-row-btn {
+    margin: 0px 0px 0px 10px;
+    padding: 9px 15px;
+    border: none;
+    background: #0073aa;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button.add-row-btn {
+    margin: 0px 0px 0px 10px;
+    padding: 9px 15px;
+    border: none;
+    background: #0073aa;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.insert-field-modal table tr td:first-child {
+    width: 45%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.insert-field-modal table tr td select {
+    border-color: #dee2e6;
+}
+
+button.billing-update-btn {
+    border: none;
+    background: #28a745;
+    padding: 7px 18px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+button.billing-update-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+tr.sorted-field td[disabled] {
+    filter: blur(1px);
+    pointer-events: none;
+}
+
+span.question {
+    height: 14px;
+    width: 14px;
+    background: #595e63;
+    padding: 0px 5px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50px;
+    font-size: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+@media(min-width:778px) {
+    .innovs-woo-successModal {
+        display: unset !important;
+        position: absolute;
+        left: 143px;
+    }
+}

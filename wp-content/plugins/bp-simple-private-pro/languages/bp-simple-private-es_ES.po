@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-simple-private_es_ES\n"
+"POT-Creation-Date: 2016-04-16 09:24-0800\n"
+"PO-Revision-Date: 2016-04-17 01:15-0300\n"
+"Last-Translator: Pablo Custo\n"
+"Language-Team: PhiloPress\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../loader.php:26
+msgid ""
+"BuddyPress Simple Private requires the BuddyPress plugin. Please install "
+"BuddyPress or deactivate BuddyPress Simple Private."
+msgstr ""
+"BuddyPress Simple Private requiere el plugin BuddyPress. Por favor, primero "
+"instale BuddyPress o desactive BuddyPress Simple Private."
+
+#: ../inc/pp-private-admin-meta-box.php:28
+msgid "Public or Private"
+msgstr "Público o Privado"
+
+#: ../inc/pp-private-admin-meta-box.php:47
+msgid "This is your Front Page - and cannot be Private."
+msgstr "Esta es su Página Principal - y no puede ser Privada."
+
+#: ../inc/pp-private-admin-meta-box.php:54
+msgid "This post or page cannot be seen unless the user is logged-in:"
+msgstr ""
+"Estos artículos o páginas no pueden ser visualizadas a menos que el usuario "
+"haya iniciado sesión en:"
+
+#: ../inc/pp-private-admin-settings.php:20
+msgid "BP Simple Private"
+msgstr ""
+
+#: ../inc/pp-private-admin-settings.php:78
+msgid "BuddyPress Simple Private Settings"
+msgstr "Ajustes de BuddyPress Simple Private"
+
+#: ../inc/pp-private-admin-settings.php:91
+msgid ""
+"When non-logged-in users try to access Private content, they will be sent to:"
+msgstr ""
+"Cuando un usuario que no ha iniciado sesión intente acceder a un contenido "
+"privado, será reenviado a:"
+
+#: ../inc/pp-private-admin-settings.php:95
+msgid "If you'd like to set a custom redirection URL, please visit:"
+msgstr ""
+"Si desea establecer una URL de redirección personalizada, por favor visite:"
+
+#: ../inc/pp-private-admin-settings.php:103
+msgid ""
+"Select which BuddyPress sections are NOT viewable by non-logged-in users:"
+msgstr ""
+"Seleccionar qué áreas de BuddyPress no podrán ser visualizadas por usuarios "
+"no registrados:"
+
+#: ../inc/pp-private-admin-settings.php:126
+msgid ""
+"For selected Post Types, a Public or Private checkbox will appear in the "
+"upper right corner of their wp-admin Create and Edit screens."
+msgstr ""
+"Para los siguientes Tipos seleccionados, una casilla de verificación Pública "
+"o Privada aparecerá en la esquina superior derecha de su pantalla de Crear y "
+"Editar en wp-admin."
+
+#: ../inc/pp-private-admin-settings.php:147
+msgid "Save Settings"
+msgstr "Guardar Ajustes"
+
+#: ../inc/pp-private-admin-settings.php:187
+msgid "Settings have been updated."
+msgstr "Los ajustes se han actualizado."
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Activity"
+msgstr "Actividad"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Events"
+msgstr "Eventos"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Forums"
+msgstr "Foros"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Forums (bbPress)"
+msgstr "Foros (bbPress)"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Group Forums"
+msgstr "Grupos de Foros"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Group Forums (bbPress)"
+msgstr "Grupos de Foros (bbPress)"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Groups"
+msgstr "Grupos"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Members"
+msgstr "Usuarios"
+
+#: ../inc/pp-private-admin-settings.php:113
+msgid "Member Profile Pages"
+msgstr "Perfiles de Usuarios"
+
+#: ../inc/pp-private-admin-settings.php:134
+msgid "Event"
+msgstr "Evento"
+
+#: ../inc/pp-private-admin-settings.php:134
+msgid "Page"
+msgstr "Página"
+
+#: ../inc/pp-private-admin-settings.php:134
+msgid "Post"
+msgstr "Entrada"

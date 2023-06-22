@@ -1,0 +1,177 @@
+# Copyright (C) 2017 WPDrift
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress for SportsPress 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bp-sportspress\n"
+"POT-Creation-Date: 2017-04-15 19:43:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: _inc/bp-sportspress-activity.php:46
+msgid "%1$s updated the event %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:49
+msgid "%1$s created the event %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:101
+msgid "%1$s updated the team %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:104
+msgid "%1$s created the team %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:156
+msgid "%1$s updated the player %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:159
+msgid "%1$s added the player %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:211
+msgid "%1$s updated the staff %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-activity.php:214
+msgid "%1$s added the staff %2$s"
+msgstr ""
+
+#: _inc/bp-sportspress-groups-extension.php:16
+msgid "Team"
+msgstr ""
+
+#: _inc/bp-sportspress-groups-extension.php:38
+msgid ""
+"<span>This group has not connected with team, <a href=\"%s\">Click</a> to "
+"connect group with the team</span>"
+msgstr ""
+
+#: _inc/bp-sportspress-groups-extension.php:71
+msgid "Group Team"
+msgstr ""
+
+#: _inc/bp-sportspress-groups-extension.php:73
+#: _inc/bp-sportspress-groups.php:77
+msgid "--Select--"
+msgstr ""
+
+#: _inc/bp-sportspress-groups.php:57
+msgid "Team Group"
+msgstr ""
+
+#: _inc/bp-sportspress-groups.php:74
+msgid "Add this team to a buddypress group."
+msgstr ""
+
+#: _inc/bp-sportspress-groups.php:91
+msgid "&#43; Create New Group"
+msgstr ""
+
+#: _inc/bp-sportspress-hooks.php:33
+msgid "Player"
+msgstr ""
+
+#: _inc/bp-sportspress-notifications.php:31
+msgid "You have been added to event %s"
+msgstr ""
+
+#: _inc/bp-sportspress-notifications.php:35
+msgid "You have been added in %d new events"
+msgstr ""
+
+#: _inc/bp-sportspress-notifications.php:48
+msgid "You have been added to players list %s"
+msgstr ""
+
+#: _inc/bp-sportspress-notifications.php:52
+msgid "You have been added in %d new players list"
+msgstr ""
+
+#: _inc/bp-sportspress-notifications.php:66
+msgid "Your score have been updated for event %s"
+msgstr ""
+
+#: _inc/bp-sportspress-notifications.php:70
+msgid "You score have been added in %d events"
+msgstr ""
+
+#: _inc/bp-sportspress-updater.php:193
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: _inc/bp-sportspress-updater.php:200
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: _inc/bp-sportspress-updater.php:341
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: _inc/bp-sportspress-updater.php:341
+msgid "Error"
+msgstr ""
+
+#: bp-sportspress-core.php:40
+msgid "sportspress"
+msgstr ""
+
+#: bp-sportspress-core.php:142
+msgid "SportsPress"
+msgstr ""
+
+#: bp-sportspress.php:47
+msgid ""
+"Hey! BuddyPress for SportsPress requires <a href='%s'>SportsPress</a> "
+"activated"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BuddyPress for SportsPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.themeboy.com/sportspress-extensions/buddypress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin integrated SportsPress into your BuddyPress user profiles. This "
+"plugin needs BuddyPress and SportsPress to be installed."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPDrift"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpdrift.com"
+msgstr ""
+
+#: bp-sportspress-core.php:157
+msgctxt "Activity subnav tab"
+msgid "Events"
+msgstr ""
+
+#: bp-sportspress-core.php:187
+msgctxt "Adminbar main nav"
+msgid "SportsPress"
+msgstr ""
+
+#: bp-sportspress-core.php:195
+msgctxt "Adminbar events subnav"
+msgid "Events"
+msgstr ""

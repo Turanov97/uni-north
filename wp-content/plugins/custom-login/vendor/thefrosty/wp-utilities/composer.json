@@ -1,0 +1,82 @@
+{
+  "name": "thefrosty/wp-utilities",
+  "description": "A library containing my standard development resources",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Austin Passy",
+      "email": "thefrosty@users.noreply.github.com",
+      "homepage": "https://austin.passy.co",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "roots/wordpress-core-installer": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.4"
+    },
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "johnbillion/args": "^1.1",
+    "psr/container": "^1.0 || ^2.0"
+  },
+  "require-dev": {
+    "ext-simplexml": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "phpmd/phpmd": "^2.6",
+    "phpunit/php-code-coverage": "^9.2",
+    "phpunit/phpunit": "^9",
+    "pimple/pimple": "^3.5",
+    "roots/wordpress": "^6.0.0",
+    "squizlabs/php_codesniffer": "^3.2",
+    "szepeviktor/phpstan-wordpress": "^1.0",
+    "wp-phpunit/wp-phpunit": "^6.0.0",
+    "yoast/phpunit-polyfills": "^1.0.2"
+  },
+  "suggest": {
+    "pimple/pimple": "",
+    "symfony/http-foundation": ""
+  },
+  "autoload": {
+    "psr-4": {
+      "TheFrosty\\WpUtilities\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TheFrosty\\WpUtilities\\Tests\\": "tests/unit/"
+    }
+  },
+  "scripts": {
+    "install-codestandards": [
+      "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+    ],
+    "phpcs": [
+      "bash ./bin/phpcs.sh"
+    ],
+    "phpmd": [
+      "bash ./bin/phpmd.sh"
+    ],
+    "phpunit": [
+      "./vendor/bin/phpunit --colors --coverage-html ./tests/results && php ./tests/clover-results.php ./tests/clover.xml 2"
+    ],
+    "phpstan": [
+      "./vendor/bin/phpstan analyze"
+    ],
+    "tests": [
+      "@phpcs",
+      "@phpunit"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+Plugin Name: WP Defender
+Author: WPMU DEV
+Tested up to: 6.2
+
+Change Log:
+
+= 3.11.0 ( 2023-05-15 ) =
+
+- New: Autosync Local Blocklists with the Hub Global IP
+- Enhance: Compatibility with PHP 8.2
+- Enhance: Improve 'Hide error reporting' recommendation
+- Enhance: Improve 'Prevent PHP Execution' and 'Prevent Information Disclosure' recommendations on Windows server
+- Enhance: WP-CLI commands for Google reCAPTCHA
+- Enhance: Remove unused plugin core methods
+- Fix: Error when adding a '<' tag in Invite by email Recipients name in all notifications
+- Fix: Not possible to create config with Defender free version if it is not connected to the Hub
+- Fix: Display Undefined message when session expired on Malware Scanning page
+- Fix: Audit Logging > Events logs results are not consistent with different WordPress time settings
+- Fix: Username filters display incorrect results on Audit Logging page
+- Fix: Incorrect message is displayed to user when we enter a '<' tag in banned username and other textarea lockout fields
+- Fix: Button status (color and text) are not changed when Ban Bulk applies on the Firewall Logs page
+- Fix: When session expired and try to login with 2FA TOTP then email and password are empty
+
+= 3.10.1 ( 2023-04-10 ) =
+
+- Fix: Unparsed HTML in email notification templates
+
+= 3.10.0 ( 2023-04-03 ) =
+
+- Enhance: Improve Maxmind country selection flow
+- Enhance: Security improvements in plugin email templates
+- Enhance: Remove declare( strict_types = 1 ); directive to reduce error cases
+- Enhance: Replace old Grunt packages
+- Enhance: Improve Defender admin menu icon
+- Enhance: Rephrase the Fallback email description
+- Enhance: Create hash by reading the file in chunks to save memory
+- Enhance: Update SUI to the latest version
+- Fix: Security Key regeneration cron doesn't take the wp-config.php file's modification date into account
+- Fix: Google reCAPTCHA prevents creating a new member-user with WC Memberships plugin
+- Fix: Google reCAPTCHA error when using the Ultimate Member reCAPTCHA extension with Login enabled
+- Fix: Defender conflicts with Eventlist plugin at checkout step
+
+= 3.9.1 ( 2023-03-14 ) =
+
+- Enhance: Compatibility with WordPress 6.2
+- Enhance: Security improvements
+
+= 3.9.0 ( 2023-02-20 ) =
+
+- Enhance: Remove Hummingbird log from Audit Logging
+- Enhance: Add YARA rule to detect malware
+- Enhance: Improve IP columns
+- Enhance: Minify DateRangePicker JS and CSS files
+- Enhance: Display additional vulnerability data on Malware Scanning page
+- Fix: Defender continuously reports WP core vulnerability even after ignore
+- Fix: File change detection for plugins and WP core not working on Windows
+- Fix: Google reCAPTCHA error when using ProfilePress plugin with Lost Password enabled
+- Fix: Google reCAPTCHA is preventing the submission of the WooCommerce review form
+- Fix: Country flag broken on Defender's Dashboard page if Emojis Remove option selected in Hummingbird
+
+= 3.8.2 ( 2023-02-09 ) =
+
+- Fix: Issue with saved configurations from the Hub
+
+= 3.8.1 ( 2023-01-19 ) =
+
+- Fix: Issue with "Prevent user enumeration" recommendation and WP_Sitemaps_Provider and Stop oEmbed calls
+
+
+905264-1685349527-au

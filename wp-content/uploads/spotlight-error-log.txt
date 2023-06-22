@@ -1,0 +1,28 @@
+[2023-06-01T12:50:02+00:00] The Instagram API responded with an error: Error #190 [OAuthException]: Invalid OAuth access token - Cannot parse access token
+                            #0 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/IgApi/IgApiUtils.php(69): RebelCode\Spotlight\Instagram\IgApi\IgApiUtils::handleException(Object(RebelCode\WordPress\Http\Exception\ClientErrorException))
+                            #1 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/IgApi/IgGraphApiClient.php(107): RebelCode\Spotlight\Instagram\IgApi\IgApiUtils::sendRequest(Object(RebelCode\WordPress\Http\WpClient), Object(RebelCode\Psr7\Request))
+                            #2 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/IgApi/IgApiClient.php(81): RebelCode\Spotlight\Instagram\IgApi\IgGraphApiClient->getAccountForUser('178414573467294...', Object(RebelCode\Spotlight\Instagram\IgApi\AccessToken))
+                            #3 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Actions/UpdateAccountsAction.php(57): RebelCode\Spotlight\Instagram\IgApi\IgApiClient->getAccountInfo(Object(RebelCode\Spotlight\Instagram\IgApi\IgAccount))
+                            #4 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Utils/Arrays.php(120): RebelCode\Spotlight\Instagram\Actions\UpdateAccountsAction->RebelCode\Spotlight\Instagram\Actions\{closure}(Object(WP_Post), 0)
+                            #5 [internal function]: RebelCode\Spotlight\Instagram\Utils\Arrays::RebelCode\Spotlight\Instagram\Utils\{closure}(Object(WP_Post), 0)
+                            #6 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Utils/Arrays.php(121): array_walk(Array, Object(Closure))
+                            #7 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Actions/UpdateAccountsAction.php(68): RebelCode\Spotlight\Instagram\Utils\Arrays::each(Array, Object(Closure))
+                            #8 /Applications/MAMP/htdocs/clubland/wp-includes/class-wp-hook.php(308): RebelCode\Spotlight\Instagram\Actions\UpdateAccountsAction->__invoke()
+                            #9 /Applications/MAMP/htdocs/clubland/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+                            #10 /Applications/MAMP/htdocs/clubland/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+                            #11 /Applications/MAMP/htdocs/clubland/wp-cron.php(188): do_action_ref_array('spotlight/insta...', Array)
+                            #12 {main}
+[2023-06-01T12:45:34+00:00] The Instagram API responded with an error: Error #190 [OAuthException]: Invalid OAuth access token - Cannot parse access token
+                            #0 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/IgApi/IgApiUtils.php(69): RebelCode\Spotlight\Instagram\IgApi\IgApiUtils::handleException(Object(RebelCode\WordPress\Http\Exception\ClientErrorException))
+                            #1 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/IgApi/IgGraphApiClient.php(107): RebelCode\Spotlight\Instagram\IgApi\IgApiUtils::sendRequest(Object(RebelCode\WordPress\Http\WpClient), Object(RebelCode\Psr7\Request))
+                            #2 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/IgApi/IgApiClient.php(81): RebelCode\Spotlight\Instagram\IgApi\IgGraphApiClient->getAccountForUser('178414573467294...', Object(RebelCode\Spotlight\Instagram\IgApi\AccessToken))
+                            #3 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Actions/UpdateAccountsAction.php(57): RebelCode\Spotlight\Instagram\IgApi\IgApiClient->getAccountInfo(Object(RebelCode\Spotlight\Instagram\IgApi\IgAccount))
+                            #4 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Utils/Arrays.php(120): RebelCode\Spotlight\Instagram\Actions\UpdateAccountsAction->RebelCode\Spotlight\Instagram\Actions\{closure}(Object(WP_Post), 0)
+                            #5 [internal function]: RebelCode\Spotlight\Instagram\Utils\Arrays::RebelCode\Spotlight\Instagram\Utils\{closure}(Object(WP_Post), 0)
+                            #6 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Utils/Arrays.php(121): array_walk(Array, Object(Closure))
+                            #7 /Applications/MAMP/htdocs/clubland/wp-content/plugins/spotlight-social-photo-feeds-premium/src/core/Actions/UpdateAccountsAction.php(68): RebelCode\Spotlight\Instagram\Utils\Arrays::each(Array, Object(Closure))
+                            #8 /Applications/MAMP/htdocs/clubland/wp-includes/class-wp-hook.php(308): RebelCode\Spotlight\Instagram\Actions\UpdateAccountsAction->__invoke()
+                            #9 /Applications/MAMP/htdocs/clubland/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+                            #10 /Applications/MAMP/htdocs/clubland/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+                            #11 /Applications/MAMP/htdocs/clubland/wp-cron.php(188): do_action_ref_array('spotlight/insta...', Array)
+                            #12 {main}
